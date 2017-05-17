@@ -17,7 +17,7 @@ class RecursionTests extends FunSuite {
         }
     }
 
-    test("Empty lists are 0") {
+    test("Empty lists evaluate to 0") {
         assert(sum(List()) == 0)
         assertResult(0) {
             val x: List[Int] = List()
